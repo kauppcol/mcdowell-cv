@@ -1,0 +1,120 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+
+% Set applicant's personal data for header
+\name{Cole Kauppinen}
+\address{2128 Rope Maker Rd \linebreak Conroe, TX 77384}
+\contacts{(832) 296-5927 \linebreak kauppinencole@gmail.com}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+	
+	% Print the content
+	\begin{cvsection}{Employment}
+		\begin{cvsubsection}{Quality Engineer Intern}{ServiceNow}{Summer 2022}
+			\begin{itemize}
+				\item Wrote and applied regression tests to the ServiceNow platform using Selenium and JUnit
+				\item Tested a store app for internally onboarding employees using XHTML and JavaScript
+				\item Verified an algorithm for determining and suggesting training courses to new hires
+				
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Quality Assurance Intern}{Woodforest National Bank}{Summer 2021}
+			\begin{itemize}
+				\item Constructed customer, loan, and facility queries through SQL to identify potential risk
+				\item Rebuilt and optimized a data mart using the star schema approach
+				\item Automated data entry processes with Python scripts to clean up inconsistent financial records
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Math Instructor}{Mathnasium}{June 2018 - August 2019}
+			\begin{itemize}
+				\item Tutored and graded mathematics concepts ranging from basic arithmetic to calculus
+				\item Monitored and advised four to eight students simultaneously
+				\item Ensured a clean workspace and an efficient working environment
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Austin, TX}{University of Texas at Austin}{Fall 2019 -- May 2022}
+			\begin{itemize}
+				\item \textbf{B.S. in Computer Science.} GPA: 3.99
+				\item \textbf{Coursework:} Software Engineering, Algorithms, Data Structures, iOS Development, Operating Systems, Artificial Intelligence, Compilers, Data Mining
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Projects}
+		\begin{cvsubsection}{Virtual Art Gallery}{}{}
+			\begin{itemize}
+				\item Developed a web application hosted on AWS with a React based frontend and Flask based backend
+				\item Implemented a RESTful API with searching and filtering capabilities using Postman
+				\item Created, refined, and expanded a PostgreSQL database to efficiently handle queries
+			\end{itemize}
+		\end{cvsubsection}
+
+		\begin{cvsubsection}{iOS Basketball Application}{}{}
+			\begin{itemize}
+				\item Designed an app for displaying NBA scores, standings, news, and statistics using Storyboard in Xcode
+				\item Supported authentication through Firebase, personalized settings and color schemes, and notifications about favorite teams
+				\item Provided live highlights and updates via Reddit and NBA APIs using Alamofire
+			\end{itemize}
+		\end{cvsubsection}
+
+		\begin{cvsubsection}{Pintos OS Projects}{}{}
+			\begin{itemize}
+				\item Expanded a toy OS to include priority scheduling, system calls for user programs, and virtual memory
+				\item Refined a skeleton kernel to allow for argument passing on the stack
+				\item Converted a single-thread file system into a multi-level indexed system
+			\end{itemize}
+		\end{cvsubsection}
+
+		\begin{cvsubsection}{UC Berkeley Pac-Man Projects}{}{}
+			\begin{itemize}
+				\item Implemented key AI concepts such as search, reinforcement learning, Bayesian networks, and classification
+				\item Created an intelligent Pac-Man agent capable of solving a variety of mazes and scenarios
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Languages and Technologies}
+		\begin{cvsubsection}{}{}{}
+			\begin{itemize}
+				\item \textbf{Languages:} Python, Java, C, Swift, JavaScript, HTML, CSS
+				\item \textbf{Frameworks:} Flask, Node.js, JUnit, Selenium, React
+				\item \textbf{Tools:}  Git, Linux, Xcode, AWS, Docker, CI/CD, Postman, PowerBI
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+\end{document}
+
